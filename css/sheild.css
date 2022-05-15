@@ -1,0 +1,603 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+/* Start Custom Menu */
+.custom-menu{
+    /* position: relative;
+    height: 50px; */
+} 
+
+.custom-menu .menu-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-menu .menu-toggler{
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    transition: .3s ;
+    
+}
+.custom-menu .menu-toggler:hover{
+opacity: .9;
+}
+
+
+
+.custom-menu  .links{
+    background-color: #222;
+    position: absolute;
+    height: 100vh;
+    top: 100%;
+    min-width: 400px;
+    right: -100%;
+    transition: .5s ease-in-out;
+    
+    
+}
+.custom-menu  .links.open-menu  {
+   
+    right:  0;
+}
+.custom-menu  .links ul{
+margin: 0;
+
+}
+.custom-menu  .links li{
+    float: unset;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Custom Menu */
+
+/*****************START NAVBAR*******************/
+
+.navbar-default {
+    background-color: #222;
+    height: 50px;
+    border: none;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #222;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background: none;
+    color: #999;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #fff;
+    background: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #999;
+    font-size: 17px;
+}
+
+.navbar-default .navbar-nav > li > a:hover ,
+.navbar-default .navbar-nav > li > a:focus{
+    color: #FFF;
+}
+
+nav i {
+    color: #3498db;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    background: #222;
+}
+
+.navbar-default .navbar-nav > .active > a:foucs {
+    color: #FFF;
+}
+
+
+/*****************END NAVBAR*******************/
+
+
+/*****************START PHOTOSHOW*******************/
+
+.back-photo {
+    background: url('../photos/film-making.jpg') no-repeat center;
+    width: 100%;
+    min-height: 657px;
+}
+
+.override {
+    background: rgba(9, 9, 9, 0.5);
+    min-height: 657px;
+    color: #fff;
+}
+
+.override i {
+    font-size: 100px;
+    margin-top: 130px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.override p {
+    font-size: 40px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    color: #fff;
+}
+
+
+/*****************END PHOTOSHOW*******************/
+
+
+/*****************START FEATURES*******************/
+
+.features {
+    padding-top: 40px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.features i {
+    font-size: 55px;
+    color: #555;
+}
+
+.features p {
+    color: #555;
+    font-size: 17px;
+}
+
+
+/*****************END FEATURES*******************/
+
+
+/*****************START INFO-ONE*******************/
+
+.info-one h1 {
+    padding-top: 25px;
+}
+
+.info-one hr {
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+.info-one p {
+    line-height: 1.9;
+    padding-bottom: 60px;
+    color: #555;
+    font-size: 17px;
+}
+
+
+/*****************END INFO-ONE*******************/
+
+
+/*****************START FIRST ADDITIONAL SECTION*******************/
+
+.extra-photo-one {
+    background: url('../photos/paul-thomas-anderson-social.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 350px;
+}
+
+.extra-info-one {
+    background: rgba(9, 9, 9, 0.4);
+    min-height: 350px;
+    color: #FFF;
+}
+
+.extra-info-one h1 {
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.extra-info-one hr {
+    border: 1px solid #ccc;
+    width: 51%;
+}
+
+.extra-info-one p {
+    color: #fff;
+    font-size: 25px;
+}
+
+
+/*****************END FIRST ADDITIONAL SECTION*******************/
+
+
+/*****************START SERVICES*******************/
+
+.services {
+    padding-top: 50px;
+}
+
+.services h1 {
+    color: #555;
+}
+
+.services hr {
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+.services p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.services img {
+    margin-bottom: 40px;
+    padding-top: 30px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+
+/*****************START SECOND ADDITIONAL SECTION*******************/
+
+.extra-photo-two {
+    background: url('../photos/images (51).jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 350px;
+}
+
+.extra-info-two {
+    background: rgba(9, 9, 9, 0.4);
+    min-height: 350px;
+    color: #FFF;
+}
+
+.extra-info-two h1 {
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.extra-info-two hr {
+    border: 1px solid #ccc;
+    width: 51%;
+}
+
+.extra-info-two p {
+    color: #fff;
+    font-size: 25px;
+}
+
+
+/*****************END SECOND ADDITIONAL SECTION*******************/
+
+
+/*****************START TEAM*******************/
+
+.team h1 {
+    color: #555;
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+
+.team hr {
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.team img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: -15px;
+}
+
+.team h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.team i {
+    color: #3498db;
+    margin-bottom: 10px;
+    padding-right: 4px;
+    -webkit-transition: color 0.7s;
+    transition: color 0.7s;
+}
+
+.team i:hover
+{
+    color: #cc0000;
+}
+.team p {
+    color: #555;
+    font-size: 17px;
+    padding-bottom: 40px;
+}
+
+
+
+/*****************END TEAM*******************/
+
+
+/*****************START HIRING*******************/
+
+.hiring {
+    padding-bottom: 40px;
+    padding-top: 50px;
+    background: #f5f5f5;
+}
+
+.hiring h1 {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hiring p {
+    color: #555;
+    letter-spacing: 1;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.btn-success
+{
+    -webkit-transition: background 0.7s;
+    -moz-transition: background 0.7s;
+    -o-transition: background 0.7s;
+    transition: background 0.7s;
+}
+
+.btn-success:hover
+{
+   background: #03e20b;
+    border-color: #03e20b;
+}
+
+
+/*****************END HIRING*******************/
+
+
+/*****************START THIRD ADDITIONAL SECTION*******************/
+
+.extra-photo-third {
+    background: url('../photos/images(49).jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 350px;
+}
+
+.extra-info-third {
+    background: rgba(9, 9, 9, 0.4);
+    min-height: 350px;
+    color: #FFF;
+}
+
+.extra-info-third h1 {
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.extra-info-third hr {
+    border: 1px solid #ccc;
+    width: 51%;
+}
+
+.extra-info-third p {
+    color: #fff;
+    font-size: 25px;
+}
+
+
+/*****************END THIRD ADDITIONAL SECTION*******************/
+
+
+/*****************START PORTOFOLIO*******************/
+
+.portfolio hr {
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.portfolio h1 {
+    padding-top: 30px;
+}
+
+.portfolio img {
+    padding-bottom: 30px;
+}
+
+
+/* .portfolio img:hover {
+    background-color: rgba(9, 9, 9, 0.6);
+}
+ */
+
+
+/*****************END PORTOFOLIO*********************/
+
+
+/*****************START CONTACT-PHOTO*******************/
+
+.contact-photo {
+    background: url('../photos/new_york_city_top_view_85115_1920x1080.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 350px;
+}
+
+.extra-info {
+    background: rgba(9, 9, 9, 0.6);
+    min-height: 350px;
+    color: #FFF;
+    margin-top: 50px;
+}
+
+.extra-info h1 {
+    padding-top: 125px;
+    font-size: 40px;
+}
+
+.extra-info hr {
+    border: 1px solid #ccc;
+    width: 51%;
+}
+
+.extra-info p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.extra-info i {
+    color: #3498db;
+    font-size: 25px;
+    padding-left: 3px;
+}
+
+
+/*****************END CONTACT-PHOTO*******************/
+
+
+/*****************END CONTACT*******************/
+
+.contact {
+    background: url('../photos/images (50).jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+    margin-top: -10px;
+}
+
+.contact .fields {
+    color: #FFF;
+    background: rgba(9, 9, 9, 0.8);
+    min-height: 500px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.contact .fields h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.contact .fields p {
+    margin-bottom: 35px;
+}
+
+.contact .fields i {
+    padding-top: 20px;
+}
+
+.contact .fields textarea {
+    height: 112px;
+    margin-bottom: 10px;
+}
+
+.contact input[type="text"],
+.contact textarea {
+    background: rgba(82, 78, 78, 0.8);
+    color: #FFF;
+    border: none;
+}
+
+.contact input[type="email"] {
+    background: rgba(82, 78, 78, 0.8);
+    color: #FFF;
+    border: none;
+}
+
+
+/*****************END CONTACT*******************/
+
+.talk {
+    background: #EEE;
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+
+.talk h1 {
+    font-size: 36px;
+    letter-spacing: 2.5px;
+}
+
+.talk p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.talk input {
+    margin-bottom: 5px;
+}
+
+
+/*****************START FOOTER*******************/
+
+.footer {
+    background: #2b2b2b;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #FFF;
+    font-size: 19px;
+}
+
+.footer i {
+    color: #3498db;
+    padding-right: 4px;
+    -webkit-transition: color 0.7s;
+    transition: color 0.7s;
+}
+
+.footer i:hover
+{
+    color: #cc0000;
+}
+
+/*****************END FOOTER*******************/
